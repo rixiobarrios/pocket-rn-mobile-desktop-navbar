@@ -1,5 +1,6 @@
 ![logo](https://user-images.githubusercontent.com/55994508/121374652-aed2c480-c905-11eb-9880-22f931b44a18.png)
 # Project: Mobile/Desktop Navbar
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8c37c411-2337-41c0-bd81-b7f8cd76fe12/deploy-status)](https://app.netlify.com/sites/pocket-rn-mobile-desktop-navbar/deploys)
 ## About
 This project is the response to a pre-interview assignment by Pocket RN. I will be attempting to satisfy all requirements for this Assignment to the best of my abilities.
 
@@ -78,10 +79,12 @@ I used flexbox and webkit to set layout and extra boldness for the mobile menu.
 
 **_Sources:_**
 
-[favicon.ico](https://favicon.io/favicon-converter/)
-[State Hook](https://reactjs.org/docs/hooks-state.html)
-[Disable eslint](https://stackoverflow.com/questions/27732209/turning-off-eslint-rule-for-a-specific-line)
-[Mulish Font by Google Fonts](https://fonts.google.com/specimen/Mulish)
+- [favicon.ico](https://favicon.io/favicon-converter/)
+- [State Hook](https://reactjs.org/docs/hooks-state.html)
+- [Disable eslint](https://stackoverflow.com/questions/27732209/turning-off-eslint-rule-for-a-specific-line)
+- [Mulish Font by Google Fonts](https://fonts.google.com/specimen/Mulish)
+- [Netlify](https://www.netlify.com/)
+- [CSS Tricks and Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 
 
