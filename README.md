@@ -1,71 +1,65 @@
-# Getting Started with Create React App
+![logo](https://user-images.githubusercontent.com/55994508/121374652-aed2c480-c905-11eb-9880-22f931b44a18.png)
+# Project: Mobile/Desktop Navbar
+## About
+This project is the response to a pre-interview assignment by Pocket RN. I will be attempting to satisfy all requirements for this Assignment to the best of my abilities.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed Project
 
-## Available Scripts
+See the project deployed to Netlify [here]()
+## Technologies
 
-In the project directory, you can run:
+- Javascript
+- React
 
-### `yarn start`
+## Requirements & Specifications
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [x] Create React app using [create-react-app.dev](https://create-react-app.dev/)
+- [0] Set it up in Typescript
+- [x] Match CSS properties to Figma specs [here](https://www.figma.com/file/pWbHTagWnjetKESFxFwwwd/Coding-Assessment-Designs?node-id=1%3A128)
+- [x] Use Mulish as a font
+- [x] Use the logo provided [here](https://pocketrn.com/static/media/Logo.b9fcd954.png)
+- [x] Use the icons provided in SVG format
+- [x] Instructions to run the project locally
+- [x] Cannot use libraries such as Material-UI with design components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Appendix A - Menu Icon
 
-### `yarn test`
+```
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+</svg>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Apendix B - Close Icon
 
-### `yarn build`
+```
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path
+d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,
+19L19,17.59L13.41,12L19,6.41Z" />
+</svg>
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Download and Run this App 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Open your terminal and then type
+``
+$ git clone {the url to the GitHub repo}
+``
+- This clones the repo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- cd into the new folder and type
+``
+$ npm install
+``
+- This installs the required dependencies
 
-### `yarn eject`
+- To run the React project.
+``
+$ npm start
+``
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Project 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**_Sources:_**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# pocket-rn-mobile-desktop-navbar
