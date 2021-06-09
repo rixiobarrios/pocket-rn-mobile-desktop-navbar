@@ -52,7 +52,7 @@ const Header = () => {
             <ul className="signin-up">
                 <li onClick={closeMobileMenu}>
                     <a href="https://pocketrn.com/app/login" className="signup-btn">
-                        Sing up / Log in
+                        Sign up / Log in
                     </a>
                 </li>
             </ul>
