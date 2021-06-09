@@ -1,0 +1,130 @@
+/* Desktop */
+.header {
+  display: flex;
+  background: #FFFFFF;
+  padding: 0px 40px;
+  height: 80px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+    max-width: 100%;
+    height: auto !important;
+    padding-right: 20px;
+    width: 199px;
+}
+.nav-options {
+  padding-left: 100px;
+  display: flex;
+  flex-flow: wrap;
+
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+}
+.mobile-option {
+  display: none;
+}
+
+.option :hover {
+  color: white;
+}
+.signin-up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+.signin-up:hover {
+  opacity: .5
+}
+.sign-in {
+  padding-right: 50px;
+  align-self: center;
+}
+.sign-in :hover {
+  color: white;
+}
+.signup-btn {
+  padding: 10px 10px;
+  border-radius: 8px;
+  background: linear-gradient(to top left,#ff6b6b,#ba2063);
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.mobile-menu {
+  display: none;
+}
+
+/* Mobile */
+@media (max-width: 648px) {
+  .header {
+    padding: 0px 10px;
+  }
+  .logo {
+    max-width: 100%;
+    height: auto !important;
+    padding: 10px;
+    width: 115px;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 520px;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    opacity: 0;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }  
+  .nav-options.active {
+    background: #FFFFFF;
+    left: 0;
+    opacity: 1;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    height: 100%;
+  }
+  .menu-icon {
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+    padding-left: 150px;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 10vw;
+    padding: 10px 0px 10px 30px;
+  }
+  .sign-up {
+    padding: 10px 10px;
+    margin-top: 250px;
+    border-radius: 8px;
+    background: linear-gradient(to top left,#ff6b6b,#ba2063);
+    color: #FFFFFF;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: #FFFFFF;
+    cursor: pointer;
+    align-items: center;
+  }
+  .signin-up {
+    display: none;
+  }
+}
+.mobile-menu {
+  display: block;
+}
