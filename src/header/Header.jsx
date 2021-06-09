@@ -13,38 +13,37 @@ const Header = () => {
         <div className="header">
             <div className="logo-nav">
                 <div className="logo-container">
-                        <a className="logo-link" href="/">  
-                        <img className="logo" src={Logo} />
+                        <a className="logo-link" href="https://pocketrn.com/">  
+                        <img className="logo" src={Logo} alt="logo"/>
                     </a>
                 </div>
                 <ul className={click ? 'nav-options active' : 'nav-options'}>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">Home</a>
+                        <a href="https://pocketrn.com/">Home</a>
                     </li>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">Patients</a>
+                        <a href="https://pocketrn.com/patients">Patients</a>
                     </li>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">Caregivers</a>
+                        <a href="https://pocketrn.com/caregivers">Caregivers</a>
                     </li>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">Healthcare Providers</a>
+                        <a href="https://pocketrn.com/providers">Healthcare Providers</a>
                     </li>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">About</a>
+                        <a href="https://pocketrn.com/about">About</a>
                     </li>
                     <li className="option" onClick={closeMobileMenu}>
-                        <a href="#">Contact</a>
+                        <a href="https://pocketrn.com/contact">Contact</a>
                     </li>
                     <li
                         className="option mobile-option" onClick={closeMobileMenu}>
-                        <a href="#"></a>
                     </li>
                     <li
                         className=" option mobile-option"
                         onClick={closeMobileMenu}
                     >
-                        <a href="#" className="sign-up">
+                        <a href="https://pocketrn.com/app/login" className="sign-up">
                             Sign up / Log in
                         </a>
                     </li>
@@ -52,7 +51,7 @@ const Header = () => {
             </div>
             <ul className="signin-up">
                 <li onClick={closeMobileMenu}>
-                    <a href="#" className="signup-btn">
+                    <a href="https://pocketrn.com/app/login" className="signup-btn">
                         Sing up / Log in
                     </a>
                 </li>

@@ -5,7 +5,7 @@ This project is the response to a pre-interview assignment by Pocket RN. I will 
 
 ## Deployed Project
 
-See the project deployed to Netlify [here]()
+See the project deployed to Netlify [here](https://pocket-rn-mobile-desktop-navbar.netlify.app/)
 ## Technologies
 
 - Javascript
@@ -59,7 +59,29 @@ $ npm install
 $ npm start
 ``
 
-## Project 
+## Project Construction
+
+I installed the react app first, then started to build the components to later develop each component based on their needed use. For the responsive design I used this easy code based on ``useState`` Hook:
+``
+const Header = () => {
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+``
+I used flexbox and webkit to set layout and extra boldness for the mobile menu.
+
+## Images from Figma
+
+<img width="825" alt="Screen Shot 2021-06-03 at 9 46 33 AM" src="https://user-images.githubusercontent.com/55994508/121377837-4b966180-c908-11eb-99a4-99a8fe75a2c4.png">
+<img width="215" alt="Screen Shot 2021-06-03 at 9 46 04 AM" src="https://user-images.githubusercontent.com/55994508/121377888-55b86000-c908-11eb-834d-40f7860fe589.png">
+<img width="215" alt="Screen Shot 2021-06-03 at 9 46 20 AM" src="https://user-images.githubusercontent.com/55994508/121377938-5f41c800-c908-11eb-82ef-f78899dfa17d.png">
 
 **_Sources:_**
+
+[favicon.ico](https://favicon.io/favicon-converter/)
+[State Hook](https://reactjs.org/docs/hooks-state.html)
+[Disable eslint](https://stackoverflow.com/questions/27732209/turning-off-eslint-rule-for-a-specific-line)
+[Mulish Font by Google Fonts](https://fonts.google.com/specimen/Mulish)
+
+
 
